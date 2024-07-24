@@ -15,4 +15,7 @@ Là một tập hợp **hữu hạn của các chỉ thị** hay **phương các
 - John Backus và nhóm phát triển Fortran tại IBM đã cho ra đời khái niệm mảng như là một cấu trúc dữ liệu để lưu trữ và xử lý các tập hợp số liệu một cách hiệu quả.
 
 **Tính chất**
-- **Kích thước:** Khi mảng được khởi tạo, kích thước của nó là cố định và không thể thay đổi trong suốt quá trình thực thi
+- **Kích thước:** Khi mảng được khởi tạo, kích thước của nó là cố định và không thể thay đổi trong suốt quá trình thực thi.
+- **Kiểu dữ liệu:** Tất cả các phần tử đều thuộc cùng một kiểu dữ liệu.
+- **Lưu trữ:** Các phần tử của mảng được lưu trữ liên tiếp trong bộ nhớ, nghĩa là các phần tử nằm liền kề nhau. Cho phép truy cập ngẫu nhiên đến bất kỳ phần tử nào trong mảng một cách hiệu quả.
+
