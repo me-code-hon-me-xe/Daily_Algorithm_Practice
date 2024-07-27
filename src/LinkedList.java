@@ -1,3 +1,13 @@
+// Linked List
+
+// Time Complexity
+//        Worst case	Average Case
+//Search	O(n)	        O(n)
+//Insert	O(1)        	O(1)
+//Deletion	O(1)        	O(1)
+
+//Space Complexity: O(n)
+
 // Define the Node class
 class Node{
     int data;
@@ -85,6 +95,18 @@ public class LinkedList {
         }
     }
 
+    // Method to search a node
+    public boolean searchNode(int key){
+        Node current = head;
+        while(current != null){
+            if(current.data == key){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
+
     // Let's try
     public static void main(String[] args){
 
@@ -129,6 +151,12 @@ public class LinkedList {
         // Print the updated list
         linkedList.printList();
 
+        // Search a node manually
+        System.out.println("Is 3 in the list? " + linkedList.searchNode(3)); // Output: true
+
+
     }
 }
+
+
 
